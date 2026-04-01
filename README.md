@@ -7,7 +7,7 @@ This project showcases gym facilities, services, trainers, and membership plans 
 
 ##  Live Preview
 
-*(Add your deployed link here if hosted on Vercel/Netlify)*
+[Click Here to View Project](https://gym-website-six-rho.vercel.app/)
 
 ---
 
