@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerHouse Gym</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">PowerHouse</div>
+
+    <nav>
+      <ul id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>Build Your Dream Physique</h1>
+    <p>Train with experts and achieve real results</p>
+    <button class="btn">Join Now</button>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="images/pic 2.jfif" alt="">
+        <div class="card-content">
+          <h3>Personal Training</h3>
+          <p>One-on-one expert guidance.</p>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+        <img src="images/pic 3.jfif" alt="">
+        <div class="card-content">
+          <h3>Cardio Training</h3>
+          <p>Advanced machines for fat loss.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 1.jpg" alt="">
+        <div class="card-content">
+          <h3>Strength Training</h3>
+          <p>Build muscle effectively.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- facilities -->
+
+  <section id="facilities">
+    <h2>Our Facilities</h2>
+
+    <p class="facilities-text">
+      At PowerHouse Gym, we provide world-class facilities designed to help you achieve your fitness goals.
+      From modern equipment to expert trainers, everything you need is here.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="images/pic6.jfif" alt="">
+        <div class="card-content">
+          <h3>Modern Equipment</h3>
+          <p>Advanced machines for effective and safe workouts.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 3.jfif" alt="">
+        <div class="card-content">
+          <h3>Cardio Zone</h3>
+          <p>Burn calories with high-quality cardio machines.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 7.avif" alt="">
+        <div class="card-content">
+          <h3>Strength Training</h3>
+          <p>Complete weight training setup for muscle building.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 4.avif" alt="">
+        <div class="card-content">
+          <h3>Personal Coaching</h3>
+          <p>Certified trainers to guide your fitness journey.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section id="trainers">
+    <h2>Our Trainers</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="images/pic 1.jpg" alt="">
+        <div class="card-content">
+          <h3>John Carter</h3>
+          <p>Strength Coach</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 4.avif" alt="">
+        <div class="card-content">
+          <h3>Mike Ross</h3>
+          <p>Cardio Specialist</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section id="plans">
+    <h2>Membership Plans</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="images/pic 3.jfif" alt="">
+        <div class="card-content">
+          <h3>Basic</h3>
+          <p>₹999/month</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pic 5.avif" alt="">
+        <div class="card-content">
+          <h3>Premium</h3>
+          <p>₹2999/month</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <h2>PowerHouse Gym</h2>
+    <p>Email: info@powerhouse.com</p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+    <p>&copy; 2026 All Rights Reserved</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
